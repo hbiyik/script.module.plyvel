@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.module.plyvel" name="Plyvel Module" provider-name="hbiyik" version="0.9">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.abi" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Plyvel precompiled module</summary>
+		<summary lang="tr">Plyvel için önceden derlenmiş kütüphane</summary>
+		<description lang="en">Plyvel</description>
+		<license>GNU General Public License, v2</license>
+		<forum>https://github.com/hbiyik/script.module.plyvel/issues</forum>
+		<website>https://github.com/hbiyik/script.module.plyvel</website>
+		<email>huseyinbiyik@hotmail.com</email>
+	</extension>
+</addon>
